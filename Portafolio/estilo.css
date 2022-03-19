@@ -1,0 +1,123 @@
+body{
+    background: black;
+    color: white;
+    font-size: 12px;
+}
+
+
+section{
+    background:  grey;
+    padding: 15px;
+    margin: 15px;
+
+}
+
+header{
+    position: absolute;
+    background: blue;
+    width: 1000px;
+    height: 200px;
+}
+
+footer{
+    background-color: red;
+    padding: 25px;
+    margin: 60px;
+}
+
+article{
+    background: blueviolet;
+    padding: 15px;
+    margin: 70px;
+}
+
+h1{
+    position: absolute;
+    width: 752px;
+    height: 60px;
+left: calc(50% - 752px/2 - 194px);
+top: 151px;
+
+font-family: Work Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 34px;
+line-height: 40px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.02em;
+
+color: #000000;
+}
+
+
+h2{
+    position: absolute;
+    width: 442px;
+    height: 40px;
+left: 5px;
+top: 0px;
+    
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 40px;
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+    
+    color: #000000;
+}
+
+section{
+    position: absolute;
+    width: 1029px;
+    height: 151px;
+    left: 69px;
+    top: 95px;
+
+background: linear-gradient(179.2deg, #FFFFFF 0.69%, rgba(255, 250, 250, 0) 159.06%);
+}
+section-1{
+    position: absolute;
+    width: 409px;
+    height: 510px;
+    left: 55px;
+    top: 407px;
+    
+    background: linear-gradient(179.2deg, #FFFFFF 0.69%, rgba(255, 250, 250, 0) 159.06%);
+}
+
+section-2{
+    position: absolute;
+    width: 409px;
+    height: 510px;
+    left: 508px;
+    top: 407px;
+
+background: linear-gradient(179.96deg, #FFFFFF 0.03%, rgba(255, 253, 253, 0) 121.62%);
+}
+
+section-3{
+    position: absolute;
+width: 409px;
+height: 510px;
+left: 962px;
+top: 407px;
+
+background: linear-gradient(179.96deg, #FFFFFF 0.03%, rgba(255, 253, 253, 0) 121.62%);
+}
+
+
+h1.Titulo1{
+    position: absolute;
+    width: 752px;
+    height: 60px;
+    left: 5px;
+    top: 100px; 
+    
+}

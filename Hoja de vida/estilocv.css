@@ -1,0 +1,338 @@
+body{
+    background: black;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+}
+
+
+section{
+    background:  rgb(255, 255, 255);
+    padding: 15px;
+    margin: 15px;
+
+}
+
+header{
+    position: absolute;
+    background: red;
+    width: 1000px;
+    height: 200px;
+}
+
+footer{
+    background-color: red;
+    padding: 25px;
+    margin: 60px;
+}
+
+article{
+    background: rgb(255, 255, 255);
+    padding: 15px;
+    margin: 70px;
+}
+
+h1{
+    position: absolute;
+    width: 752px;
+    height: 60px;
+left: calc(50% - 752px/2 - 194px);
+top: 151px;
+
+font-family: Work Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 34px;
+line-height: 40px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.02em;
+
+color: #000000;
+}
+
+
+h2{
+    position: absolute;
+    width: 442px;
+    height: 40px;
+left: 5px;
+top: 0px;
+    
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 40px;
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+    
+    color: #000000;
+}
+
+section{
+    position: initial;
+    width: 1029px;
+    height: 151px;
+    left: 69px;
+    top: 95px;
+
+background: linear-gradient(179.2deg, #f80b0b 0.69%, rgba(255, 250, 250, 0) 159.06%);
+}
+
+
+
+
+h1.Titulo1{
+    position: absolute;
+    width: 752px;
+    height: 60px;
+    left: 5px;
+    top: 100px; 
+    
+}
+
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background: #585c68;
+  font-size: 14px;
+  line-height: 22px;
+  color: #555555;
+}
+
+.bold {
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.semi-bold {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.Lado {
+  width: 800px;
+  height: auto;
+  display: flex;
+  margin: 50px auto;
+}
+
+.Lado .lado_izquierdo {  /* FONDO */
+  width: 280px;
+  background: #73dda841;
+}
+
+.Lado .lado_izquierdo .Lado_Perfil {
+  width: 100%;
+  height: 280px;
+}
+
+.Lado .lado_izquierdo .Lado_Perfil img {
+  width: 100%;
+  height: 100%;
+}
+
+.Lado .lado_izquierdo .Contenido {
+  padding: 0 25px;
+}
+
+.Lado .title {
+  margin-bottom: 20px;
+}
+
+.Lado .lado_izquierdo .bold {
+  color: #fff;
+}
+
+.Lado .lado_izquierdo .regular {
+  color: #b1eaff;
+}
+
+.Lado .items {
+  padding: 25px 0;
+  border-bottom: 2px solid #b1eaff;
+}
+
+.Lado .lado_izquierdo .items:last-child,
+.Lado .Lado_derecho .items:last-child {
+  border-bottom: 0px;
+}
+
+.Lado .lado_izquierdo ul li {
+  display: flex;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+.Lado .lado_izquierdo ul li:last-child {
+  margin-bottom: 0;
+}
+
+.Lado .lado_izquierdo ul li .icon {
+  width: 35px;
+  height: 35px;
+  background: #fff;
+  color: #000000;
+  border-radius: 50%;
+  margin-right: 15px;
+  font-size: 16px;
+  position: relative;
+}
+
+.Lado .icon i,
+.Lado .Lado_derecho .Hobbyy ul li i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.Lado .lado_izquierdo ul li .data {
+  color: #b1eaff;
+}
+
+.Lado .p_izquierdo .Habilidades ul li {
+  display: flex;
+  margin-bottom: 10px;
+  color: #b1eaff;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Lado .lado_izquierdo .Habilidades ul li .skill_name {
+  width: 45%;
+  color: white;
+}
+
+.Lado .lado_izquierdo .Habilidades ul li .Progreso_habilidad {
+  width: 60%;
+  margin: 0 5px;
+  height: 5px;
+  background: #009fd9;
+  position: relative;
+}
+
+.Lado .lado_izquierdo .Habilidades ul li .skill_per {
+  width: 15%;
+}
+
+.Lado .lado_izquierdo .Habilidades ul li .Progreso_habilidad span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: rgb(255, 255, 255);
+}
+
+.Lado .lado_izquierdo .resume_social .semi-bold {
+  color: #fff;
+  margin-bottom: 3px;
+}
+
+.Lado .Lado_derecho {
+  width: 520px;
+  background: #fff;
+  padding: 25px;
+}
+
+.Lado .Lado_derecho .bold {
+  color: #0bb5f4;
+}
+
+.Lado .Lado_derecho .trabajo ul,
+.Lado .Lado_derecho .resume_education ul {
+  padding-left: 40px;
+  overflow: hidden;
+}
+
+.Lado .Lado_derecho ul li {
+  position: relative;
+}
+
+.Lado .Lado_derecho ul li .date {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.Lado .Lado_derecho ul li .info {
+  margin-bottom: 20px;
+}
+
+.Lado .Lado_derecho ul li:last-child .info {
+  margin-bottom: 0;
+}
+
+.Lado .Lado_derecho .trabajo ul li:before,
+.Lado .Lado_derecho .resume_education ul li:before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: -25px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  border: 2px solid #0bb5f4;
+}
+
+.Lado .Lado_derecho .trabajo ul li:after,
+.Lado .Lado_derecho .resume_education ul li:after {
+  content: "";
+  position: absolute;
+  top: 14px;
+  left: -21px;
+  width: 2px;
+  height: 115px;
+  background: #0bb5f4;
+}
+
+.Lado .Lado_derecho .Hobbyy ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Lado .Lado_derecho .Hobbyy ul li {
+  width: 80px;
+  height: 80px;
+  border: 2px solid #0bb5f4;
+  border-radius: 50%;
+  position: relative;
+  color: #0bb5f4;
+}
+
+.Lado .Lado_derecho .Hobbyy ul li i {
+  font-size: 30px;
+}
+
+.Lado .Lado_derecho .Hobbyy ul li:before {
+  content: "";
+  position: absolute;
+  top: 40px;
+  right: -52px;
+  width: 50px;
+  height: 2px;
+  background: #0bb5f4;
+}
+
+.Lado .Lado_derecho .Hobbyy ul li:last-child:before {
+  display: none;
+}
+
+
+.pto{
+  color:black;
+}

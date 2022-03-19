@@ -1,0 +1,133 @@
+body{
+    background: brown;
+    color: white;
+    font-size: 12px;
+}
+
+
+section{
+    background:  grey;
+    padding: 15px;
+    margin: 15px;
+
+}
+
+header{
+    position: absolute;
+    background: blue;
+    width: 1000px;
+    height: 200px;
+}
+
+footer{
+    background-color: red;
+    padding: 25px;
+    margin: 60px;
+}
+
+article{
+    background: blueviolet;
+    padding: 15px;
+    margin: 70px;
+}
+
+h1{
+    position: absolute;
+    width: 752px;
+    height: 60px;
+left: calc(50% - 752px/2 - 194px);
+top: 151px;
+
+font-family: Work Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 34px;
+line-height: 40px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.02em;
+
+color: #000000;
+}
+
+
+h2{
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 0px;
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+    
+    color: #000000;
+}
+
+
+
+
+h1.Titulo1{
+    position: absolute;
+    width: 752px;
+    height: 60px;
+    left: 5px;
+    top: 100px; 
+    
+}
+
+
+
+.tabla1{
+    background: grey;
+    border: 1px;
+    border-style: dashed;
+    border-color: yellow;
+}
+
+.titulotabla{
+    background: red;
+    font-size: medium;
+}
+
+.celda {
+    background: grey;
+    font-size: medium;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 25px;
+    border-style: groove;
+    border-color: yellow;
+    width: 30px;
+    height: 15px;
+    text-align: center;
+    padding-top: 0px;
+}
+
+table td{
+    background: blue;
+}
+
+section span{
+    background: red;
+    font-size: medium;
+    padding: 10px;
+    margin: 2px;
+    border-radius: 15px;
+    border-style: dotted;
+    border-color: aqua;
+}
+
+
+#respuesta{
+    background-color: blue;
+    font-size: large;
+}
+
+.sopaletras{
+    margin: 50px;
+    background:greenyellow;
+}

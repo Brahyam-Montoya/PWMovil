@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang ="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> Ejercicio tablas y formularios</title>
+<link rel="stylesheet" href="estiloTallerClase.css" type="text/css"/>
+</head>
+
+<body>
+    <table class="tabla1">
+        <tr class="titulotabla">
+            <th>Ciudad </th>
+            <th>Fecha</th>
+            <th>Temperatura </th>
+            <th>Altitud</th>
+            <th>Poblacion</th>
+            <th>Ranking Cena</th>
+        </tr>
+
+        <tr>
+            <td class="tede">El baixo Miño(Galicia)</td>
+            <td>Agosto 2,1995</td>
+            <td>23°</td>
+            <td>200 m</td>
+            <td>2.000</td>
+            <td>5/5</td>
+        </tr>
+
+        <tr>
+            <td>El Maestrazgo de teruel</td>
+            <td>Junio 2, 1995</td>
+            <td>20°</td>
+            <td>1.300 m</td>
+            <td>500</td>
+            <td>3/5</td>
+        </tr>
+
+        <tr>
+            <td>El Priorato de Teruel</td>
+            <td>Mayo 1,1995</td>
+            <td>18°</td>
+            <td>700 m</td>
+            <td>800</td>
+            <td>4/5</td>
+        </tr>
+    </table>
+
+     <section>
+         <div class="celda">1</div>
+         <div class="celda">2</div>
+         <div class="celda">3</div>
+         <div class="celda">4</div>
+         <div class="celda">5</div>
+     </section>
+     <hr>
+     <section class="sopaletras"> 
+         <span>a</span>
+         <span>b</span>
+         <span>c</span>
+         <span id="respuesta">d</span>
+         <span>e</span>
+     </section>
+     <hr> 
+   
+     <form action="">
+        <h2> DATOS PERSONALES </h2>
+        <br>
+         <label for="Nombre">Nombre</label>
+         <input type="text" name="Nombre"
+          id="Nombre">
+<br>    
+          <label for="Apellidos">Apellidos</label>
+         <input type="text" name="Apellidos"
+          id="Apellidos">
+<br>    
+          <label for="Email">Correo Electronico</label>
+         <input type="text" name="Email"
+          id="Email">
+<br>    
+          <label for="Genero">Masculino</label>
+         <input type="radio" name="Genero"
+          id="Genero">
+ <br>    
+          <label for="Genero">Femenino</label>
+         <input type="radio" name="Genero"
+          id="Genero1">
+<hr>
+
+ <label for="hobby">Natacion</label>
+<input type="checkbox" name="hobby"
+ id="hobby1" value="Natacion">
+
+ <label for="hobby">Atletismo</label>
+<input type="checkbox" name="hobby"
+ id="hobby2" value="Atletismo">
+
+ <label for="hobby">Buceo</label>
+<input type="checkbox" name="hobby"
+ id="hobby3" value="Buceo">
+ <hr>
+ <label for="color">Color</label>
+<input type="color" name="color"
+ id="color" value="color">
+ <br>
+
+ <label for="Edad">Edad</label>
+ <input type="range" name="Edad"
+  id="Edad" value="Edad">
+  <br>
+  <label for="Fecha">Fecha Nacimiento</label>
+ <input type="date" name="Fecha"
+  id="Fecha" value="Fecha">
+  <br>
+  <label for="Fecha_Hora">Fecha Hora</label>
+  <input type="datetime-local" name="Fecha_Hora"
+   id="Fecha_Hora" value="">
+
+  
+
+
+<br>
+ <input type="button" value="Enviar">
+ <input type="button" value="Restablecer">
+          
+      </form>
+     
+</body>
+</html>  
