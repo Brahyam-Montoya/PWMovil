@@ -1,0 +1,194 @@
+body{
+    background: brown;
+    color: rgb(0, 0, 0);
+    font-size: 12px;
+}
+
+
+section{
+    background:  grey;
+    padding: 15px;
+    margin: 15px;
+
+}
+
+header{
+    position: absolute;
+    background: blue;
+    width: 1000px;
+    height: 200px;
+}
+
+footer{
+    background-color: red;
+    padding: 25px;
+    margin: 60px;
+}
+
+article{
+    background: blueviolet;
+    padding: 15px;
+    margin: 70px;
+}
+
+
+
+
+h2{
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 0px;
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+    
+    color: #000000;
+}
+
+
+
+
+h1.Titulo1{
+    position: absolute;
+    width: 752px;
+    height: 60px;
+    left: 5px;
+    top: 100px; 
+    
+}
+
+
+
+.tabla1{
+    background: grey;
+    border: 1px;
+    border-style: dashed;
+    border-color: yellow;
+}
+
+.titulotabla{
+    background: rgb(114, 107, 107);
+}
+
+.celda {
+    background: rgb(204, 202, 202);
+    font-size: medium;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 25px;
+    border-style: groove;
+    border-color: yellow;
+    width: 30px;
+    height: 15px;
+    text-align: center;
+    padding-top: 0px;
+}
+
+table td{
+    text-align: center;
+    background: white;
+}
+
+section span{
+    background: rgb(255, 255, 255);
+    font-size: medium;
+    padding: 10px;
+    margin: 2px;
+    border-radius: 15px;
+    border-style: dotted;
+    border-color: aqua;
+}
+
+
+#respuesta{
+    background-color: blue;
+    font-size: large;
+}
+
+
+
+section{
+    background:  grey;
+    padding: 15px;
+    margin: 15px;
+
+}
+
+section-1{
+    position: absolute;
+    width: 409px;
+    height: 510px;
+    left: 55px;
+    top: 407px;
+    
+    background: linear-gradient(179.2deg, #FFFFFF 0.69%, rgba(255, 250, 250, 0) 159.06%);
+}
+
+.p1{
+    background: yellow;
+}
+
+.p2{
+    background:blue;
+}
+
+.p3{
+    background: red;
+}
+
+.p4{
+    background: blueviolet;
+}
+
+.p5{
+    background: brown;
+}
+
+.p6{
+    background: greenyellow;
+}
+.p7{
+    background: gray;
+}
+
+
+.listaag{
+    position: absolute;
+    width: 752px;
+    height: 60px;
+    left: calc(50% - 752px/2 - 194px);
+top: 151px;
+font-family: Work Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 34px;
+line-height: 40px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.02em;
+}
+
+h1{
+    position: absolute;
+    width: 752px;
+    height: 60px;
+left: calc(50% - 752px/2 - 194px);
+top: 151px;
+
+font-family: Work Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 34px;
+line-height: 40px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.02em;
+
+color: #000000;
+}
