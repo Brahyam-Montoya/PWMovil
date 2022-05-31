@@ -1,0 +1,100 @@
+.container {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "Fotografia Fotografia Fotografia"
+      "Miniatura Miniatura Miniatura"
+      "Descripciones Descripciones Descripciones"
+      "Detalles Detalles Detalles"
+      "Botones Botones Botones"
+      "Estados Estados Estados";
+    width: 375px;
+  }
+  
+  .Fotografia {
+    justify-self: stretch;
+    align-self: center;
+    grid-area: Fotografia;
+    background-color: blue;
+  }
+  
+  .Descripciones { grid-area: Descripciones; }
+  
+  .Miniatura {
+       grid-area: Miniatura;
+    background-color: red; }
+ 
+  
+  .Detalles { grid-area: Detalles; }
+  
+  .Botones {
+       grid-area: Botones; 
+       background-color: blue;
+    }
+    
+ .btns{
+     display:flex;
+     flex-direction: row;
+     justify-content: center;
+     align-self: center;
+ }
+
+ .btn{
+     background-color: white;
+     margin: 10px;
+     padding: 5px;
+     border-radius: 25px;
+ }
+  
+  .Estados { grid-area: Estados; }
+
+
+  .iconos{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+  }
+
+  .ico{
+      padding: 10px;
+      margin: 5px;
+      background-color: black;
+      border-radius: 25px;
+  }
+
+  .Foto1{
+      width: 100%;
+      height: 100%;
+      border-radius: 0 5
+      5px 0 55px;
+  }
+
+
+  .Parrafo{
+      display: flex;
+      flex-direction: row;
+      flex-wrap:nowrap;
+      justify-content:center;
+  }
+
+  .Parrafo p{
+
+    align-self: row;
+  }
+
+
+  @media screen and (min-device-width:375px),
+  screen and (max-width:800px){
+      .ficha{
+          width: 600px;
+      }
+  }
+
+
+  @media screen and  (max-width:1440px){
+      .ficha{
+          width: 100%;
+      }
+  }

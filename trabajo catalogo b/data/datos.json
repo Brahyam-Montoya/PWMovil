@@ -1,0 +1,32 @@
+[{
+    "titulo": "Curso Phyton",
+    "img": "img/python.png",
+    "precio": "$500 USD"
+},
+{
+    "titulo": "Curso Cisco",
+    "img": "img/1200px-Cisco_logo_blue_2016.svg.png",
+    "precio": "$350 USD"
+},
+{
+    "titulo": "Curso JavaScript",
+    "img": "img/javascriptlogo.jpg",
+    "precio": "$550 USD"
+},
+{
+    "titulo": "Curso HTML y CSS",
+    "descripcion": "Marca gatonegro",
+    "img": "img/índice.jpg",
+    "precio": "$450 USD"
+},
+{
+    "titulo": "Cuso Excel",
+    "img": "img/excel.png",
+    "precio": "$400 USD"
+},
+{
+    "titulo": "Curso Excel Avanzado",
+    "img": "img/44567.jpg",
+    "precio": "$600 USD"
+}
+]               

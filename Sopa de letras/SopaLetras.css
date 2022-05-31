@@ -31,25 +31,7 @@ article{
     margin: 70px;
 }
 
-h1{
-    position: absolute;
-    width: 752px;
-    height: 60px;
-left: calc(50% - 752px/2 - 194px);
-top: 151px;
 
-font-family: Work Sans;
-font-style: normal;
-font-weight: bold;
-font-size: 34px;
-line-height: 40px;
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: -0.02em;
-
-color: #000000;
-}
 
 
 h2{
@@ -144,4 +126,69 @@ section-1{
     top: 407px;
     
     background: linear-gradient(179.2deg, #FFFFFF 0.69%, rgba(255, 250, 250, 0) 159.06%);
+}
+
+.p1{
+    background: yellow;
+}
+
+.p2{
+    background:blue;
+}
+
+.p3{
+    background: red;
+}
+
+.p4{
+    background: blueviolet;
+}
+
+.p5{
+    background: brown;
+}
+
+.p6{
+    background: greenyellow;
+}
+.p7{
+    background: gray;
+}
+
+
+.listaag{
+    position: absolute;
+    width: 752px;
+    height: 60px;
+    left: calc(50% - 752px/2 - 194px);
+top: 151px;
+font-family: Work Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 34px;
+line-height: 40px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.02em;
+}
+
+h1{
+    position: absolute;
+    width: 752px;
+    height: 60px;
+left: calc(50% - 752px/2 - 194px);
+top: 151px;
+
+font-family: Work Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 34px;
+line-height: 40px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.02em;
+
+color: #000000;
 }

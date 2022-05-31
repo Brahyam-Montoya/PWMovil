@@ -1,0 +1,96 @@
+<div id="lista-cafe" class="container">
+        <h1 id="encabezado" class="encabezado">Pedidos en linea</h1>
+        <div class="row">
+            <div class="four columns card1"> <div class="card">
+                                <img src="maxresdefault.jpg" class="u-full-width">
+                                <div class="info-card">
+                                    <h4>Repuesto de frenos tipo disco</h4>
+                                    <p>Marca gatonegro</p>
+                                    <img src="estrellas.png">
+                                    <p class="precio">$200.000 <span>$15.000</span></p>
+                                    <a href="#" class="u-full-width button-primary button input agregar-carrito
+                                    ">Agregar Al Carrito</a>
+                                </div>
+                            </div> <div class="card">
+                                <img src="frenos-moto-discos-1000x640.jpg" class="u-full-width">
+                                <div class="info-card">
+                                    <h4>Maniguetas</h4>
+                                    <p>undefined</p>
+                                    <img src="estrellas.png">
+                                    <p class="precio">$200.000 <span>$15.000</span></p>
+                                    <a href="#" class="u-full-width button-primary button input agregar-carrito
+                                    ">Agregar Al Carrito</a>
+                                </div>
+                            </div> <div class="card">
+                                <img src="Piezas-de-repuesto-para-Motocross-palanca-de-cambio-de-marchas-de-aluminio-para-Kayo-Apollo-Bse.jpg" class="u-full-width">
+                                <div class="info-card">
+                                    <h4>Repuesto de frenos tipo disco</h4>
+                                    <p>undefined</p>
+                                    <img src="estrellas.png">
+                                    <p class="precio">$200.000 <span>$15.000</span></p>
+                                    <a href="#" class="u-full-width button-primary button input agregar-carrito
+                                    ">Agregar Al Carrito</a>
+                                </div>
+                            </div> <div class="card">
+                                <img src="maxresdefault.jpg" class="u-full-width">
+                                <div class="info-card">
+                                    <h4>Repuesto de frenos tipo disco</h4>
+                                    <p>Marca gatonegro</p>
+                                    <img src="estrellas.png">
+                                    <p class="precio">$200.000 <span>$15.000</span></p>
+                                    <a href="#" class="u-full-width button-primary button input agregar-carrito
+                                    ">Agregar Al Carrito</a>
+                                </div>
+                            </div> <div class="card">
+                                <img src="frenos-moto-discos-1000x640.jpg" class="u-full-width">
+                                <div class="info-card">
+                                    <h4>Maniguetas</h4>
+                                    <p>undefined</p>
+                                    <img src="estrellas.png">
+                                    <p class="precio">$200.000 <span>$15.000</span></p>
+                                    <a href="#" class="u-full-width button-primary button input agregar-carrito
+                                    ">Agregar Al Carrito</a>
+                                </div>
+                            </div> <div class="card">
+                                <img src="Piezas-de-repuesto-para-Motocross-palanca-de-cambio-de-marchas-de-aluminio-para-Kayo-Apollo-Bse.jpg" class="u-full-width">
+                                <div class="info-card">
+                                    <h4>Repuesto de frenos tipo disco</h4>
+                                    <p>undefined</p>
+                                    <img src="estrellas.png">
+                                    <p class="precio">$200.000 <span>$15.000</span></p>
+                                    <a href="#" class="u-full-width button-primary button input agregar-carrito
+                                    ">Agregar Al Carrito</a>
+                                </div>
+                            </div> <div class="card">
+                                <img src="maxresdefault.jpg" class="u-full-width">
+                                <div class="info-card">
+                                    <h4>Repuesto de frenos tipo disco</h4>
+                                    <p>Marca gatonegro</p>
+                                    <img src="estrellas.png">
+                                    <p class="precio">$200.000 <span>$15.000</span></p>
+                                    <a href="#" class="u-full-width button-primary button input agregar-carrito
+                                    ">Agregar Al Carrito</a>
+                                </div>
+                            </div> <div class="card">
+                                <img src="frenos-moto-discos-1000x640.jpg" class="u-full-width">
+                                <div class="info-card">
+                                    <h4>Maniguetas</h4>
+                                    <p>undefined</p>
+                                    <img src="estrellas.png">
+                                    <p class="precio">$200.000 <span>$15.000</span></p>
+                                    <a href="#" class="u-full-width button-primary button input agregar-carrito
+                                    ">Agregar Al Carrito</a>
+                                </div>
+                            </div> <div class="card">
+                                <img src="Piezas-de-repuesto-para-Motocross-palanca-de-cambio-de-marchas-de-aluminio-para-Kayo-Apollo-Bse.jpg" class="u-full-width">
+                                <div class="info-card">
+                                    <h4>Repuesto de frenos tipo disco</h4>
+                                    <p>undefined</p>
+                                    <img src="estrellas.png">
+                                    <p class="precio">$200.000 <span>$15.000</span></p>
+                                    <a href="#" class="u-full-width button-primary button input agregar-carrito
+                                    ">Agregar Al Carrito</a>
+                                </div>
+                            </div></div>
+        </div>
+    </div>

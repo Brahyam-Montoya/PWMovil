@@ -1,0 +1,56 @@
+#sopa{
+    margin: auto;
+   
+}
+
+#contenedor{
+    margin: auto;
+    width: 800px;
+    height:800px;
+    padding: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.caja{
+    margin: 3px;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    border-radius: 5px;
+    float: left;
+}
+
+.resaltar{
+    color: white;
+    background-color: red;
+}
+
+
+.resaltarVerde{
+    color: white;
+    background-color: green;
+}
+
+.resaltarNaranja{
+    color: white;
+    background-color: rgb(255, 94, 0);
+}
+
+.h1{
+    size: 90px;
+    color: rgb(255, 145, 0);
+    font-size: larger;
+    text-align: center;
+}
+
+.h3{
+    size: 90px;
+    color: red;
+    font-size: larger;
+    text-align: center;
+    text-decoration: solid;
+
+}

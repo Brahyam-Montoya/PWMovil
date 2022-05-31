@@ -1,0 +1,251 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+h1{font-size: 2.3em;}
+h2{font-size: 1.7em;}
+h3{font-size: 1.25em}
+ul{list-style: none;}
+
+button{
+    font-size: 0.7em;
+    font-weight: bold;
+    padding: 11px 30px;
+    border-radius: 10px;
+    border: 2px solid rgba(0,0,0,0.5);
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    color: rgb(59, 59, 59);
+    background-color: rgb(158, 156, 156);
+}
+
+button:hover{
+    background-color: rgb(4, 174, 253);
+}
+
+.container{
+    max-width: 1366px;
+    margin: auto;
+}
+
+header{
+    background-color: rgba(197,139,32,255) ;
+}
+
+header .logo{
+    margin: 0;
+    padding: 25px 30px;
+    
+}
+
+header button:hover{
+    background-color: white;
+}
+
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+
+}
+
+header a{
+    padding: 12px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+header a:hover{
+    color: white;
+}
+
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 50vh;
+    color: white;
+    background-color: rgba(111,127,32,255) ;
+}
+
+#hero button:hover{
+    background-color: white;
+}
+#Crecer .container{
+    text-align: center;
+    padding: 80px 12px;
+}
+
+#PYV{
+    background-color: rgb(240, 240, 240);
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+#PYV .container{
+    text-align: center;
+    padding: 80px 12px;
+}
+
+#FYD{
+    background-color: rgb(184, 181, 181);
+    color: rgb(0, 0, 0);
+    text-align: center;
+
+}
+#FYD .container{
+    text-align: center;
+    padding: 80px 12px;
+}
+
+
+#Programas{
+    background-color: rgba(85, 77, 77, 0.315);
+    color: white;
+    text-align: center;
+}
+
+#Programas .container{
+    padding: 100px 0px;
+}
+
+#Programas h2{
+    margin-top: 0;
+    font-size: 3vw;
+}
+
+#Programas p{
+    display: none;
+}
+
+#Programas .carta{
+    padding: 50px;
+    margin: 20px;
+    border-radius: 15px;
+
+}
+
+.carta:first-child{
+    background-image: linear-gradient(0deg, 
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5)),url("imagenes/tecnologia-desarrollo-sistemas-informacion.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+
+.carta:nth-child(2){
+    background-image: linear-gradient(0deg, 
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5)),url("imagenes/ing-sistemas.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+
+.carta:nth-child(3){
+    background-image: linear-gradient(0deg, 
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5)),url("imagenes/derecho.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+
+footer{
+    background-color: gray;
+    color: white;
+}
+
+footer .container{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+#BORDE .BORDE{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+footer li{
+    margin: 9px 0px;
+}
+
+@media (min-width: 720px){
+    header{
+        position: fixed;
+        width: 100%;
+    }
+    
+    header .container{
+        flex-direction: row;
+    }
+
+    header nav{
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-left: 275px;
+    }
+    header button{
+        display: flex;
+        padding-left: 30px;
+    }
+
+
+    #hero{
+        padding-top: 90px;
+    }
+
+    
+    #Crecer .container{
+        display: flex;
+        justify-content: center;
+    }
+
+    #Crecer .texto{
+        width: 55%;
+        text-align: center;
+        justify-content: center;
+    }
+
+    #Programas .programas{
+        display: flex;
+        justify-content: center;
+    }
+    
+    #Programas p{
+        display: block;
+    }
+
+    #Programash3{
+        margin-top: 0;
+    }
+
+    #Programas .carta{
+        padding: 40px;
+        margin-bottom: 15px;
+        box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    }
+
+    footer .container{
+        flex-direction: row;
+    }
+}

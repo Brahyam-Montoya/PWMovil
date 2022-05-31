@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap");
+
+:root {
+    --clr-primary: #5d3ba7;
+    --clr-gray: #22b1f8;
+    --clr-gray-light: #c5f123;
+}
+
+* {
+    font-family: "arial", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 2rem;
+    background-color: rgb(39, 133, 209);
+}
+
+h1 {
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+    font-family: 'Trocchi', serif;
+    font-size: 55px;
+    font-weight: normal;
+    margin: 0;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    background-color: var(--clr-gray-light);
+    text-align: center;
+    margin-top: 3rem;
+
+}
+.user{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.nombre {
+    margin-bottom: 1rem;
+}
+
+.email {
+    margin-bottom: 1rem;
+    
+}
+
+a{
+    text-decoration: none;
+    color: #1a93cf;
+}
+img {
+    width: 35%;
+    border-radius: 50%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.descripcion {
+    text-align: center;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-bottom: 1rem;
+}

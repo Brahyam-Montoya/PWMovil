@@ -1,0 +1,340 @@
+body{
+ margin: 5px;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+
+.container{
+padding: 15px;
+}
+
+.card{
+    margin: 220px;
+    padding: 15px 15px 120px;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to right,
+    rgb(58, 0, 167) 0%,#eb2626 100%);
+    border-radius: 20px;
+    color: white;
+    position: absolute;
+    overflow: hidden;
+    left: -189px;
+    top: -195px;
+}
+    
+
+.cardk{
+    
+    margin: 220px;
+    padding: 15px 40px 120px;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to right,
+    rgb(58, 0, 167) 0%,#eb2626 100%);
+    border-radius: 20px;
+    color: white;
+    position: absolute;
+    overflow: hidden;
+    left: -189px;
+    top: 105px;
+    
+}
+.cardk img{
+    width: 100px;
+    height: 65px;
+    width: 65px;
+    border-radius: 50%; 
+    object-fit: cover;
+    margin-right: 10px;
+
+}
+
+.cardr1{
+    
+    margin: 220px;
+    padding: 15px 15px 80px;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to right,
+    rgb(58, 0, 167) 0%,#eb2626 100%);
+    border-radius: 20px;
+    color: white;
+    position: absolute;
+    overflow: hidden;
+    left: 170px;
+    top: -205px;
+    
+}
+.cardr1 img{
+    width: 100px;
+    height: 65px;
+    width: 65px;
+    border-radius: 50%; 
+    object-fit: cover;
+    margin-right: 10px;
+
+
+}
+
+.card img{
+    width: 100px; 
+    height: 65px;
+    width: 65px;
+    border-radius: 50%; 
+    object-fit: cover;
+    margin-right: 10px;
+
+}
+
+
+.cardr2{
+    
+    margin: 220px;
+    padding: 15px 15px 80px;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to right,
+    rgb(58, 0, 167) 0%,#eb2626 100%);
+    border-radius: 20px;
+    color: white;
+    position: absolute;
+    overflow: hidden;
+    left: 170px;
+    top: 105px;
+}
+
+.cardr2 img{
+        width: 100px;
+        height: 65px;
+        width: 65px;
+        border-radius: 50%; 
+        object-fit: cover;
+        margin-right: 10px;
+    
+}
+
+.puntos{
+    align-self: flex-end;
+    font-size: 0px;
+}
+
+.card-body{
+    display: flex;
+    justify-content: space-between;
+    z-index: 2;
+}
+
+.card-title{
+    font-size: 20px;
+}
+
+.card-body h5,
+.card-body p{
+ margin: 0;
+}
+
+.card-body-item{
+    display: flex;
+}
+
+.card-body .phone{
+margin-bottom: 20px;
+font-size: 14px;
+}
+
+
+.datos{
+    display: flex;
+    font-size: 14px;
+}
+
+.datos-div{
+    margin-right: 10px;
+    text-align: center;
+}
+
+.ranking {
+    justify-content: to;
+    justify-content: center;
+    align-items:flex-end;
+    display: flex;
+    flex-direction: column;
+    left: -189px;
+    top: 105px;
+}
+
+.ranking h4{  
+    margin: 0;
+  
+}
+
+.circulo{
+
+    
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    background: linear-gradient(to right,
+    rgb(58, 0, 167) 0%,#eb2626 80%);
+    border-radius: 50%;
+    right: -100px;
+    bottom: -50px;
+    z-index: 1;
+}
+
+
+
+
+.cardp3{
+    
+    margin: 220px;
+    padding: 15px 15px 120px;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to right,
+    rgb(58, 0, 167) 0%,#eb2626 100%);
+    border-radius: 20px;
+    color: white;
+    position: absolute;
+    overflow: hidden;
+    left: -189px;
+    top: 415px;
+    
+}
+.cardp3 img{
+    width: 100px;
+    height: 65px;
+    width: 65px;
+    border-radius: 50%; 
+    object-fit: cover;
+    margin-right: 10px;
+
+}
+
+.cardr3{
+    
+    margin: 220px;
+    padding: 15px 15px 90px;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to right,
+    rgb(58, 0, 167) 0%,#eb2626 100%);
+    border-radius: 20px;
+    color: white;
+    position: absolute;
+    overflow: hidden;
+    left: 119px;;
+    top: 415px;
+    
+}
+.cardr3 img{
+    width: 100px;
+    height: 65px;
+    width: 65px;
+    border-radius: 50%; 
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.cardp4{
+    
+    margin: 220px;
+    padding: 15px 15px 120px;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to right,
+    rgb(58, 0, 167) 0%,#eb2626 100%);
+    border-radius: 20px;
+    color: white;
+    position: absolute;
+    overflow: hidden;
+    left: -189px;
+    top: 715px;
+    
+}
+.cardp4 img{
+    width: 100px;
+    height: 65px;
+    width: 65px;
+    border-radius: 50%; 
+    object-fit: cover;
+    margin-right: 10px;
+
+}
+
+.cardr4{
+    
+    margin: 220px;
+    padding: 15px 15px 10px;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to right,
+    rgb(58, 0, 167) 0%,#eb2626 100%);
+    border-radius: 20px;
+    color: white;
+    position: absolute;
+    overflow: hidden;
+    left: 119px;;
+    top: 715px;
+    
+}
+.cardr4 img{
+    width: 100px;
+    height: 65px;
+    width: 65px;
+    border-radius: 50%; 
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.cardp5{
+    
+    margin: 220px;
+    padding: 15px 15px 120px;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to right,
+    rgb(58, 0, 167) 0%,#eb2626 100%);
+    border-radius: 20px;
+    color: white;
+    position: absolute;
+    overflow: hidden;
+    left: -189px;
+    top: 1010px;
+    
+}
+.cardp5 img{
+    width: 100px;
+    height: 65px;
+    width: 65px;
+    border-radius: 50%; 
+    object-fit: cover;
+    margin-right: 10px;
+
+}
+
+.cardr5{
+    
+    margin: 220px;
+    padding: 15px 15px 120px;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to right,
+    rgb(58, 0, 167) 0%,#eb2626 100%);
+    border-radius: 20px;
+    color: white;
+    position: absolute;
+    overflow: hidden;
+    left: 119px;;
+    top: 1010px;
+    
+}
+.cardr5 img{
+    width: 100px;
+    height: 65px;
+    width: 65px;
+    border-radius: 50%; 
+    object-fit: cover;
+}
