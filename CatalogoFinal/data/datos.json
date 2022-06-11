@@ -1,0 +1,74 @@
+[
+    {
+        "titulo": "Audi E-Tron GT",
+        "img": "img/AudiEtron.jpg",
+        "precio": "$500 USD",
+        "descripcion": "RESEÑA: El Audi e-tron GT es una berlina eléctrica con diseño 'coupé', del segmento E, fabricada por Audi. Actualmente se comercializa la primera generación, presentada en 2021. El Audi e-tron GT se caracteriza por ofrecer una dinámica muy deportiva, consiguiendo una potencia de hasta 646 CV y 488 km de autonomía. "
+    },
+    {
+        "titulo": "Audi R8 ",
+        "img": "img/AudiR8.jpg",
+        "precio": "$500 USD",
+        "descripcion": "RESEÑA: El Audi más rápido y potente que se puede comprar hoy día es el R8, y más concretamente su versión Coupé V10 performance Quattro, que con un motor V10 de 5.2 litros capaz de generar 620 cv y 580 Nm de par motor, acelera de 0 a 100 km/h en 3,1 segundos. es un deportivo de motor central trasero y tracción total "
+    },
+    {
+        "titulo": "BMW M2",
+        "img": "img/bmwm2.jpg",
+        "precio": "$500 USD",
+        "descripcion": "RESEÑA: El BMW M2 es un modelo de la vieja escuela. En un mundo de híbridos, tricilíndricos e hibridación, el pequeño M mantiene la esencia deportiva de la casa montando el bloque de seis cilindros en línea clásico. Es el mismo motor que podemos ver en otros modelos deportivos de BMW como es el caso del BMW M3 "
+    },
+    {
+        "titulo": "BMW Serie 8",
+        "img": "img/bmws8.jpg",
+        "precio": "$500 USD",
+        "descripcion": "RESEÑA: El BMW Serie 8 se posiciona dentro de la gama del fabricante bávaro como el buque insignia. Es un deportivo con carrocería coupé de dos puertas que se lanzó al mercado en 1989 con dos motores distintos: un V8 de 286 CV (840 Ci) y un V12 de 326 CV (850 Ci.) &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp"
+    },
+    {
+        "titulo": "Ford Mustang",
+        "img": "img/FordMustang.jpg",
+        "precio": "$209.990.000",
+        "descripcion": "RESEÑA: El Ford Mustang es un automóvil deportivo muscle car de dos puertas, producido por el fabricante estadounidense Ford Motor Company desde 1964. Ford Mustang Mach 1 de 1969. Originalmente fue concebido por Lee Iacocca como un concurso entre departamentos como algo personal y deportivo "
+    },
+    {
+        "titulo": "Ford Mustang Shelby",
+        "img": "img/FordMustangShelby.jpg",
+        "precio": "$500 USD",
+        "descripcion": "RESEÑA: Ford Mustang Shelby GT500 es un rediseño que viene con toda la tecnología de rendimiento que caracteriza a Ford, probado en la carretera e impulsado por un motor V8 sobrealimentado, que entrega más de 700 caballos de fuerza. Sin dudar, el motor más poderoso de este Musculoso linaje. "
+    },
+    {
+        "titulo": "Jaguar F-Type",
+        "img": "img/JaguarFtype.jpg",
+        "precio": "$500 USD",
+        "descripcion": "RESEÑA: El Jaguar F-Type es un deportivo biplaza, fabricado por Jaguar desde 2013. Actualmente se comercializa la primera generación, que fue debidamente actualizada a final de 2019. se ofrece con carrocerías descapotable y coupé, y motores con potencias comprendidas entre 300 y 575 CV. "
+    },
+    {
+        "titulo": "Mercedes Clase C",
+        "img": "img/MercedesClaseC.jpg",
+        "precio": "$500 USD",
+        "descripcion": "RESEÑA: El Mercedes-Benz Clase C es un automóvil de gama alta (automóvil de turismo del segmento D) producido por el fabricante alemán Mercedes-Benz desde el año 1993. Equipa un motor de gasolina con turbocompresor de 2.0 litros con 204 CV de potencia y 320 Nm de par motor &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp "
+    },
+    {
+        "titulo": "Porsche 911 Carrera Turbo",
+        "img": "img/Porshe911.jpg",
+        "precio": "$500 USD",
+        "descripcion": "RESEÑA: El par máximo es de 750 Nm y la encargada de digerir toda esta energía sigue siendo una transmisión PDK de doble embrague y ocho marchas, asociado a un sistema de tracción a las cuatro ruedas. Con todo ello, el 911 Turbo es capaz de acelerar de 0 a 100 km/h en apenas 2,8 segundos y su velocidad máxima es de 320 km/h. "
+    },
+    {
+        "titulo": "Porsche 911 GT3",
+        "img": "img/pORSHE911GT3.jpg",
+        "precio": "$500 USD",
+        "descripcion": "RESEÑA: El Porsche 911 GT3 es un automóvil deportivo cupé de dos puertas, con motor plano de seis cilindros en disposición trasera, montado longitudinalmente y de tracción trasera, producido por el fabricante alemán Porsche AG desde 1999. deja atrás la marca de los 100 km/h en solo 3,9 s, con una velocidad máxima de 320 km/h. "
+    },
+    {
+        "titulo": "Porshe Cayenne",
+        "img": "img/pORSHEcayene.jpg",
+        "precio": "$500 USD",
+        "descripcion": "RESEÑA: El Porsche Cayenne S equipa un motor V6 de 2.9 litros de cilindrada con doble turbo y 324 kW de potencia máxima, y un par máximo de 550 Nm. El paso de 0 a 100 km/h se produce en 5,2 segundos (4,9 s. ) alcanzando una velocidad máxima de 265 km/h.es un automóvil todoterreno de lujo producido por alemán Porsche "
+    },
+    {
+        "titulo": "Porshe Cayman GT4",
+        "img": "img/PorsheCayman.jpg",
+        "precio": "$500 USD",
+        "descripcion": "RESEÑA: El Porsche Cayman GT4, de 385 CV, es el modelo más potente y rápido de la gama Cayman. Se diferencia del resto no sólo por el motor (de 3,8 litros de cilindrada en lugar de 3,4 litros), sino también por cambios en el chasis y en la carrocería. Gracias a su cilindrada de 4.0 litros.<br>  el motor genera una  potencia de 420 CV  "
+    }
+]

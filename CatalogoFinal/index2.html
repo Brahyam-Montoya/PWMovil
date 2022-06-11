@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>INICIO Admin</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/ske2.css" />
+    <!-- <link rel="stylesheet" href="css/custom.css"> -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header id="header" class="header">
+      <div class="container">
+        <div class="row">
+          <div class="four columns" id="agregar">
+            <a href="index.html">Inicio</a>
+            <a class="" id="login" href="index.html">Cerrar Sesion</a>
+          </div>
+
+          <div class="two columns u-pull-right">
+            <ul>
+              <li class="submenu">
+                <img src="img/cart.png" alt="" id="img-carrito" />
+                <div id="carrito">
+                  <table id="lista-carrito" class="u-full-width">
+                    <thead>
+                      <tr>
+                        <th>Imagen</th>
+                        <th>Nombre</th>
+                        <th>Precio</th>
+                        <th></th>
+                      </tr>
+                    </thead>
+                    <tbody></tbody>
+                  </table>
+                  <a href="#" id="vaciar-carrito" class="button u-full-width"
+                    >Vaciar Carrito</a
+                  >
+                  <a href="#" id="comprar" class="button u-full-width"
+                    >comprar</a
+                  >
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="FZTITULO">
+      FZ AUTOS
+      <div class="">
+        <img src="img/FZ.jpg" height="320px" width="400px" />
+      </div>
+    </div>
+
+    <div class="hero">
+      <div class="container">
+        <div class="row">
+          <div class="six colums">
+            <div class="contenido-hero">
+              <h2>Haz tu pedido</h2>
+              <p></p>
+
+              <form action="#" id="busqueda" method="post" class="formulario">
+                <input
+                  class="u-full-width"
+                  type="text"
+                  placeholder="¿Que te gustaria comprar?"
+                  id="buscador"
+                />
+                <input
+                  type="submit"
+                  id="submit-buscador"
+                  class="submit-buscador"
+                />
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="barra imacatalogo">
+      <div class="container">
+        <div class="row">
+          <div class="four columns"></div>
+          <div class="">
+            <p class="tituloCatalogo">Catalogo</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="lista-catalogo" class="container">
+      <div class="row">
+        <div class="four columns catalogo"></div>
+      </div>
+    </div>
+    <!---->
+    <div class="barra icono2">
+      <div class="container ">
+        <div class="row">
+          <div class="four columns icono1">
+            <p>
+              Contacto <br />
+              <a href="https://api.whatsapp.com/message/Y3EHXTCIDEE4E1?autoload=1&app_absent=0" id="">Whatsapp</a> <br>
+          
+            </p>
+          </div>
+
+          <div class="four columns ">
+            <p>
+              <br />
+              nvs combinaciones
+            </p>
+          </div>
+          <div class="four columns ">
+            <p>
+              Siguenos en <br />
+              <a href="https://www.facebook.com/fzautos/" id="">Facebook</a><br>
+              <a href="https://www.instagram.com/usadosmedellin_fz/" id="">Instagram</a><br>
+              <a href="https://www.youtube.com/channel/UCLF28-SUXlt6POtHAtiVUmA">Youtube</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/app.js"></script>
+    <script src="js/pp.js"></script>
+    <script src="js/LocalStorage.js"></script>
+  </body>
+</html>
